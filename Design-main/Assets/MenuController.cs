@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class StartBtn : MonoBehaviour
+
+public class MenuController : MonoBehaviour
 {
     // Start is called before the first frame update
-  public void StartButton(){
+    
+        public void VRroom()
+        {
 
-SceneManager.LoadScene("Room prop");
-  }
-}
+            SceneManager.LoadScene("4x4x4 module");
+
+        }
+    }
