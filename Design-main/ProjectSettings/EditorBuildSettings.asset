@@ -11,12 +11,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room prop.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/4x4x4 module.unity
-    guid: da176413b6f6e204ca70b542eb1648a5
   - enabled: 1
+    path: Assets/Scenes/4x4.unity
+    guid: da176413b6f6e204ca70b542eb1648a5
+  - enabled: 0
     path: Assets/Scenes/TESTCOLOR.unity
     guid: d143aa4497bd84e7da535693200d5df8
+  - enabled: 1
+    path: Assets/Scenes/6x6.unity
+    guid: 27a6e486c8bbe406f950733f292a1fd7
+  - enabled: 1
+    path: Assets/Scenes/8x4x4.unity
+    guid: 8d47d67d9fb7242c6b9f3ba74e911603
+  - enabled: 1
+    path: Assets/Scenes/5x8x5.unity
+    guid: aeda8839fbb1a99498c02ea2bf52d983
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: be3ca2dca51c648a3a315a3f668cf07c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b41e0045e7e7543d88c522cd8ceec5e7, type: 2}
