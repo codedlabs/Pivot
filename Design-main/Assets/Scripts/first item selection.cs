@@ -7,9 +7,8 @@ using UnityEngine.SceneManagement;
 public class firstitemselection : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        public Text textBox;
+
+    public Text textBox;
     public Dropdown dropdown;
     public int index;
 
@@ -24,7 +23,7 @@ public class firstitemselection : MonoBehaviour
         items.Add("IKEA");
         items.Add("Abyat");
         items.Add("Midas");
-        
+
 
         foreach (var item in items)
         {
@@ -40,5 +39,6 @@ public class firstitemselection : MonoBehaviour
     }
 }
 
+
    
-}
+
