@@ -4,9 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class DropdownitemSelected : MonoBehaviour
+public class CatDD : MonoBehaviour
 {
-
     public Text textBox;
     public Dropdown dropdown;
     public int index;
@@ -14,15 +13,14 @@ public class DropdownitemSelected : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         dropdown = transform.GetComponent<Dropdown>();
         dropdown.options.Clear();
         List<string> items = new List<string>();
         items.Add("Options");
-        items.Add("Chairs");
-        items.Add("Tables");
-        items.Add("Lambs");
-    
+        items.Add("Table");
+        items.Add("Charies");
+        items.Add("Lanbs");
+        
 
         foreach (var item in items)
         {
@@ -36,6 +34,8 @@ public class DropdownitemSelected : MonoBehaviour
         index = dropdown.value;
         textBox.text = dropdown.options[index].text;
     }
+
+
     void Update()
     {
         index = dropdown.value;
@@ -48,24 +48,19 @@ public class DropdownitemSelected : MonoBehaviour
             if (index == 1)
             {
 
-                SceneManager.LoadScene("6x6");
+                SceneManager.LoadScene("Table");
             }
             else if (index == 2)
             {
 
-                SceneManager.LoadScene("8x4x4");
+                SceneManager.LoadScene("Charies");
             }
             else if (index == 3)
             {
                 //load scene 0
-                SceneManager.LoadScene("5x8x5");
+                SceneManager.LoadScene("Lambs");
             }
-            else if (index == 4)
-            {
-                //load scene 0
-                SceneManager.LoadScene("4x4");
-            }
-
+            
 
 
         }
